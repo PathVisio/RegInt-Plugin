@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.pathvisio.regint
+Bundle-SymbolicName: org.pathvisio.regint
+Bundle-Version: 1.0.0
+Bundle-Activator: org.pathvisio.regint.Activator
+Export-Package: org.pathvisio.regint
+Require-Bundle: org.pathvisio.core;bundle-version="3.0.0",
+ org.pathvisio.gui;bundle-version="3.0.0",
+ org.pathvisio.desktop;bundle-version="3.0.0",
+ org.bridgedb;bundle-version="1.1.0",
+ org.bridgedb.bio;bundle-version="1.1.0",
+ org.bridgedb.gui;bundle-version="1.1.0",
+ org.pathvisio.jgoodies.forms;bundle-version="1.2.0"
+Import-Package: org.osgi.framework;version="1.5.0"
